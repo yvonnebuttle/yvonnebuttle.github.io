@@ -2,7 +2,7 @@ title: "Yvonne Buttle"
 description: "Personal website of Yvonne Buttle"
 baseurl: "" # leave empty if using yvonnebuttle.github.io
 url: "https://yvonnebuttle.github.io"
-remote_theme: "mmistakes/minimal-mistakes@4.25.0"
+remote_theme: "pages-themes/minimal@v0.2.0"
 
 plugins:
   - jekyll-feed
