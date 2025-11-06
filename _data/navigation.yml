@@ -1,0 +1,13 @@
+main:
+  - title: "being"
+    url: /about/
+  - title: "thinking"
+    url: /academics/
+  - title: "writing"
+    url: /writing/
+  - title: "doing"
+    url: /projects/
+  - title: "liking"
+    url: /interests/
+  - title: "reading"
+    url: /reading/
