@@ -1,0 +1,28 @@
+/* Body background and text */
+body {
+  background-color: #fdf6e3; /* soft cream */
+  color: #333333; /* deep charcoal */
+  font-family: 'Lato', sans-serif;
+  line-height: 1.6;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Merriweather', serif;
+  color: #2c2c2c;
+}
+
+/* Links */
+a {
+  color: #8b5e3c; /* warm terracotta */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #6b4226;
+}
+
+/* Optional small accents */
+hr {
+  border-color: #d8cfc4;
+}
