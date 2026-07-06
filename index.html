@@ -1,108 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/svg+xml" href="favicon.svg">
-    <title>yvonne buttle</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
-            line-height: 1.6;
-            color: #3d3020;
-            max-width: 650px;
-            margin: 0 auto;
-            padding: 60px 20px;
-            background: #f5f1e8;
-        }
-        
-        h1 {
-            font-size: 24px;
-            font-weight: 600;
-            margin-bottom: 30px;
-            color: #2d2416;
-        }
-        
-        h2 {
-            font-size: 18px;
-            font-weight: 600;
-            margin-top: 40px;
-            margin-bottom: 15px;
-            color: #2d2416;
-        }
-        
-        p {
-            margin-bottom: 15px;
-            color: #4a3f2a;
-        }
-        
-        a {
-            color: #8b6914;
-            text-decoration: none;
-            border-bottom: 1px solid transparent;
-        }
-        
-        a:hover {
-            border-bottom: 1px solid #8b6914;
-        }
-        
-        .section-links {
-            margin-top: 40px;
-            margin-bottom: 40px;
-            padding: 20px 0;
-            border-top: 1px solid #d4c5a9;
-            border-bottom: 1px solid #d4c5a9;
-        }
-        
-        .section-links a {
-            margin-right: 20px;
-            font-size: 15px;
-            color: #6b5d3f;
-        }
-        
-        .section-links a:hover {
-            color: #8b6914;
-        }
-        
-        .contact {
-            margin-top: 40px;
-            font-size: 15px;
-            padding-top: 20px;
-            border-top: 1px solid #d4c5a9;
-        }
-        
-        .contact a {
-            font-size: 15px;
-            color: #6b5d3f;
-        }
-        
-        .contact a:hover {
-            color: #8b6914;
-        }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<title>yvonne buttle</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+    line-height: 1.7;
+    color: #3d3020;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 60px 20px;
+    background: #f5f1e8;
+    animation: fadeIn 0.6s ease;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(8px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+h1 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-size: 34px;
+    font-weight: 600;
+    letter-spacing: -0.5px;
+    margin-bottom: 30px;
+    color: #2d2416;
+}
+
+h2 {
+    font-family: 'Fraunces', Georgia, serif;
+    font-size: 19px;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    color: #2d2416;
+}
+
+p {
+    margin-bottom: 15px;
+    color: #4a3f2a;
+}
+
+a {
+    color: #b5502f;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.2s ease, color 0.2s ease;
+}
+
+a:hover {
+    border-bottom: 1px solid #b5502f;
+}
+
+.contact {
+    margin-top: 40px;
+    font-size: 15px;
+    padding-top: 20px;
+    border-top: 1px solid #d4c5a9;
+}
+
+.contact a {
+    font-size: 15px;
+    color: #6b5d3f;
+}
+
+.contact a:hover {
+    color: #b5502f;
+}
+</style>
 </head>
 <body>
-    <h1>Yvonne Buttle</h1>
+<h1>Yvonne Buttle</h1>
 
-    <h2>about me</h2>
-    <p>an enthusiastic amateur and medical doctor who likes doing stuff. Recent stuff includes an M.Phil in philosophy at Trinity and trying out <a href="doing.html">personal app making</a>.</p>
+<h2>about me</h2>
+<p>currently based in Dublin, Ireland.</p>
+<p>enthusiastic amateur and medical doctor. I like learning and doing things.</p>
 
-    <div class="section-links">
-        <a href="doing.html">doing</a>
-    </div>
+<h2>some things I have done</h2>
+<p>worked as a medical doctor in Dublin, and previously worked as a university tutor, anatomy demonstrator, photographer, operations assistant, executive assistant. I have also done some <a href="research.html">research</a>.</p>
 
-    <h2>what I'm currently interested in</h2>
-    <p>longevity | long term care | frailty | personalised medicine | healthcare automation</p>
-    <p>working hard on trying new things</p>
+<h2>what I'm currently interested in</h2>
+<p>longevity | long term care | frailty | personalised medicine | healthcare automation</p>
+<p>working hard on trying new things</p>
 
-    <div class="contact">
-        <a href="mailto:yvonnebuttle1@gmail.com">mail</a>
-    </div>
+<div class="contact">
+<a href="mailto:yvonnebuttle1@gmail.com">mail</a>
+</div>
 </body>
 </html>
